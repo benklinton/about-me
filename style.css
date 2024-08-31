@@ -3,6 +3,9 @@ body {
     animation: moveIt 100s linear infinite;
     background-color: rgba(225, 225, 225, 0.6);
     background-blend-mode: lighten;
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @keyframes moveIt {
@@ -18,13 +21,27 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    float: right;
 }
 
-.flex-container {
+.container {
     display: flex;
+}
+
+.justify-center {
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.text-margin {
+    margin: 20px;
 }
 
 .bold {
@@ -38,4 +55,50 @@ body {
 table th, td {
     border: 1px solid black;
     padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.time {
+    background-color: #f2f2f2;
+}
+
+.space-cadet {
+    background-color: #172A52;
+    color: white;
+}
+
+.web-chocolate {
+    background-color: #cf5A19;
+    color: white;
+}
+
+.cadmium {
+    background-color: #f28A29;
+    color: white;
+}
+
+.amazon {
+    background-color: #3E6B50;
+    color: white;
+}
+
+.naples {
+    background-color: #f6cD59;
+}
+
+.boy {
+    background-color: #6b7443;
+}
+
+.quincy {
+    background-color: #715148;
+    color: white;
+}
+
+.alloy {
+    background-color: #a83322;
 }
